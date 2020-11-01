@@ -1,0 +1,65 @@
+.first{
+  height: 100%;
+}
+.titleofproject{
+  text-align: center;
+  color: rgba(56, 52, 52, 0.774);
+  padding-bottom: 15px;
+  padding-top: 10px;
+  margin-top: 0%;
+  background-color: cadetblue;
+  }
+.completediv{
+  padding-bottom: 25px;
+  height: '100%';
+}
+.adddiv{
+  display:"flex";
+  margin-left: 200px;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px
+}
+.visibilitydiv{
+  background: rgba(17, 16, 16, 0.5);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 15px;
+  padding-left:100px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: white;
+}
+.todo{
+  background: rgba(255, 255, 255, 0.2);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 15px;
+  padding-left:100px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.DeleteButton {
+  color:transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.DeleteButton:hover {
+  background-color: #f44336;
+  color: white;
+}
+.AddButton {
+  text-align: center;
+  background-color:whitesmoke;
+  color: black;
+  border: transparent;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.AddButton:hover {
+  background-color: #0f962c;
+  color: white;
+}

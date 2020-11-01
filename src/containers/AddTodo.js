@@ -1,0 +1,28 @@
+import React from 'react';
+import { connect } from 'react-redux';
+import { addTodo } from '../actions';
+import '../components/App.css'
+
+
+const AddTodo =({dispatch}) =>{
+    let input;
+    return(
+        <div>
+            <form onSubmit={
+                e=> {
+                    e.preventDefault();
+                    if(!input.value.trim()){
+                        return
+                    }
+                    dispatch(addTodo(input.value));
+                    input.value ='';
+                }
+            }
+            >
+                <input type="text" style={{paddingRight:"300px"}} ref={el => (input = el)} />
+                <button type = 'submit' className="AddButton" > Add </button>
+            </form>
+        </div>
+    );
+}
+export default connect()(AddTodo);
